@@ -1,0 +1,21 @@
+{
+  "name": "isolated-ai-pages-backend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.0",
+    "@supabase/supabase-js": "^2.95.3",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "form-data": "^4.0.4",
+    "multer": "^2.0.2",
+    "pg": "^8.18.0",
+    "yt-dlp-exec": "^1.0.2"
+  }
+}
